@@ -7,13 +7,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.main {
-
-  margin-top: 0px;
-}
-
 header {
-
   max-width: 960px;
   margin: 0 auto;
 }
@@ -42,4 +36,25 @@ nav ul {
   padding-top: 1rem;
   padding-right: 2rem;
   padding-left: 410px;
+}
+
+#main {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-right: 2rem;
+  flex-direction: row-reverse;
+}
+
+.container {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+}
+
+.text {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
 }
