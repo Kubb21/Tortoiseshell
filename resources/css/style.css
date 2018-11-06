@@ -115,6 +115,7 @@ nav ul {
 .business-info {
   display: flex;
   margin: 0 auto;
+  margin-bottom: 5rem;
 }
 
 .info {
@@ -136,5 +137,20 @@ nav ul {
   font-weight: bold;
   color: white;
   margin-top: 3rem;
+}
 
+footer {
+  display: flex;
+  max-width: 960px;
+  background-color: azure;
+  margin: 0 auto;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+.box-one img {
+  height: 1.5rem;
+}
+
+.box-one span {
+  padding-left: 1rem;
 }
